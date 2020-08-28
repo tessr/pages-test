@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Some Vegetables</h1>
+
+
+    <ul>
+        {% for vegetable in site.data.vegetables %}
+        <li>{{ vegetable.english }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
