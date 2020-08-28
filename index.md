@@ -1,10 +1,12 @@
 ---
 title: My First Page
 layout: default
+datatable: true
 ---
 
 # Some Vegetables
 
+<div class="datatable-begin"></div>
 <table>
     <tr>
         <th>English</th>
@@ -24,4 +26,4 @@ layout: default
     </tr>
     {% endfor %}
 </table>
-
+<div class="datatable-end"></div>
