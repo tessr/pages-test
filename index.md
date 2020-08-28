@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
 
-<body>
+---
+title: My First Page
+layout: default
+---
 
-    <h1>Some Vegetables</h1>
+Some Vegetables</h1>
 
     <table>
         <tr>
@@ -25,6 +26,3 @@
         {% endfor %}
     </table>
 
-</body>
-
-</html>
