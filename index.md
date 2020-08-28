@@ -1,10 +1,9 @@
-
 ---
 title: My First Page
 layout: default
 ---
 
-Some Vegetables
+# Some Vegetables
 
 <table>
     <tr>
