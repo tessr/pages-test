@@ -24,7 +24,7 @@ jobs:
 
       # Runs a Go command
       - name: Run a Go file
-       env:
+        env:
           SUPER_SECRET: ${{ secrets.AIRTABLE_KEY }}
         run: go run ./scripts/update.go
 
