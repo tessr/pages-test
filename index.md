@@ -6,7 +6,7 @@ datatable: true
 
 # Some Vegetables
 
-<div class="datatable-begin"></div>
+
 <table>
     <tr>
         <th>English</th>
@@ -26,4 +26,4 @@ datatable: true
     </tr>
     {% endfor %}
 </table>
-<div class="datatable-end"></div>
+
