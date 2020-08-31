@@ -10,11 +10,11 @@ datatable: true
 <table id="filterable" class="overview sortable-table">
     <thead>
         <tr>
-            <th>English</th>
-            <th>Artikel</th>
-            <th>Deutsch</th>
-            <th>Plural</th>
-            <th>Rating</th>
+            <th>English ⇅</th>
+            <th>Artikel ⇅</th>
+            <th>Deutsch ⇅</th>
+            <th>Plural ⇅</th>
+            <th>Rating ⇅</th>
         </tr>
     </thead>
 
