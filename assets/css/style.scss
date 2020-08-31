@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+
+    tr {
+        border-bottom: 1px solid black;
+    }
+
+    td {
+        padding: 1rem;
+    }
+}
