@@ -6,8 +6,8 @@ datatable: true
 
 # Some Vegetables
 
-
-<table>
+<input type="text" disabled=true id="filter" placeholder="Filter..." autofocus /><br/><br/>
+<table id="filterable" class="overview sortable-table>
     <tr>
         <th>English</th>
         <th>Artikel</th>
