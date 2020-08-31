@@ -5,16 +5,29 @@
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
 
     <style type="text/css">
-    {% capture include_to_scssify %}
-      {% include inline.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
+        {
+            % capture include_to_scssify %
+        }
+
+            {
+            % include inline.scss %
+        }
+
+            {
+            % endcapture %
+        }
+
+            {
+                {
+                include_to_scssify | scssify
+            }
+        }
     </style>
 
 
     <title>Testing testing testing</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.js"></script>
-    <script type="text/javascript" src="assets/sortable-tables.min.js"></script>
+
     <script type="text/javascript" src="assets/filter.js"></script>
 </head>
