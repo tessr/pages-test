@@ -11,7 +11,7 @@ I'm trying to learn German and sometimes this is just a necessary step. It's als
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-Filter me: <input type="text" disabled=true id="filter" placeholder="Filter..." autofocus /><br/><br/>
+Filter me: <input type="text" disabled=true id="filter" placeholder="Filter..." autofocus /><br/>
 <table id="filterable" class="overview sortable-table">
     <thead>
         <tr>
@@ -27,7 +27,7 @@ Filter me: <input type="text" disabled=true id="filter" placeholder="Filter..." 
         {% for veg in site.data.vegetables %}
         <tr>
             <td>{{ veg.english }}</td>
-            <td>{{ veg.artikel }} :) </td>
+            <td>{{ veg.artikel }}</td>
             <td>{{ veg.deutsch }}</td>
             <td>{{ veg.plural }}</td>
             <td>{{ veg.rating }}</td>
