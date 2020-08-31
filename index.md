@@ -7,7 +7,7 @@ datatable: true
 # Some Vegetables
 
 <input type="text" disabled=true id="filter" placeholder="Filter..." autofocus /><br/><br/>
-<table id="filterable" class="overview sortable-table>
+<table id="filterable" class="overview sortable-table">
     <thead>
         <tr>
             <th>English</th>
